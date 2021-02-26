@@ -20,23 +20,23 @@ const answer5 = 'False';
    - Keep track of the number of correct answers
 */
 const questionOne = prompt('A symbol is a javacript data type: True or False? ');
-    if (questionOne.toUpperCase === 'TRUE') {
+    if (questionOne === 'true') {
         alert('You are correct!')
     } else alert('Wrong answer!');
 const questionTwo = prompt('Which company developed netscape?');
-    if (questionTwo.toUpperCase === 'NETSCAPE') {
+    if (questionTwo === 'netscape') {
         alert('You are correct!')
     } else alert('Wrong Answer!');
 const questionThree = prompt('What is this === operator called?');
-    if (questionThree.toUpperCase === 'STRICT OPERATOR') {
+    if (questionThree === 'strict operator') {
         alert('You are right!');
     } else alert('Wront Answer!')
 const questionFour = prompt('Prompts and alerts pop up boxes? True or False');
-if (questionFour.toUpperCase === 'TRUE') {
+if (questionFour === 'true') {
     alert('You are right!');
 } else alert('WRONG!')
 const questionFive = prompt('Java and Javascript are the same. True or False');
-    if (questionFive.toUpperCase === 'TRUE') {
+    if (questionFive === 'true') {
         alert('You are right!')
     } else alert('Wrong again!');
 
@@ -50,6 +50,11 @@ const questionFive = prompt('Java and Javascript are the same. True or False');
    - 1-2 correct = Bronze
    - 0 correct = No crown
 */
+
+let fiveScore = gold 
+let threeFour = Bronze
+let oneTwo = Bronze
+let zero = noCrown 
 
 
 // 6. Output results to the <main> element
