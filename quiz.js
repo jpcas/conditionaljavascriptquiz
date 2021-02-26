@@ -19,24 +19,24 @@ const answer5 = 'False';
    - Store each answer in a variable
    - Keep track of the number of correct answers
 */
-const questionOne = prompt('What are JavaScript Data types? ');
-    if (questionOne === 'string, number, undefined, null, boolean and symbol') {
+const questionOne = prompt('A symbol is a javacript data type: True or False? ');
+    if (questionOne.toUpperCase === 'TRUE') {
         alert('You are correct!')
     } else alert('Wrong answer!');
 const questionTwo = prompt('Which company developed netscape?');
-    if (questionTwo === 'netscape') {
+    if (questionTwo.toUpperCase === 'NETSCAPE') {
         alert('You are correct!')
     } else alert('Wrong Answer!');
 const questionThree = prompt('What is this === operator called?');
-    if (questionThree === 'strict operator') {
+    if (questionThree.toUpperCase === 'STRICT OPERATOR') {
         alert('You are right!');
     } else alert('Wront Answer!')
 const questionFour = prompt('Prompts and alerts pop up boxes? True or False');
-if (questionFour === 'True') {
+if (questionFour.toUpperCase === 'TRUE') {
     alert('You are right!');
-}else alert('WRONG!')
+} else alert('WRONG!')
 const questionFive = prompt('Java and Javascript are the same. True or False');
-    if (questionFive === 'True') {
+    if (questionFive.toUpperCase === 'TRUE') {
         alert('You are right!')
     } else alert('Wrong again!');
 
