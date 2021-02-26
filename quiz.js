@@ -10,7 +10,7 @@ const answer5 = 'False';
 
 // 2. Store the rank of a player
 
-
+let x = 0 
 // 3. Select the <main> HTML element
 
 
