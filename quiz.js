@@ -3,11 +3,7 @@
    - When quiz begins, no answers are correct
 */
 
-let basketball = Michael Jordan 
-let golf = Tiger Woods 
-let football = Tom Brady 
-let tennis = Roger Federer 
-let football = Cristiano Ronaldo 
+
 
 // 2. Store the rank of a player
 
@@ -20,11 +16,13 @@ let football = Cristiano Ronaldo
    - Store each answer in a variable
    - Keep track of the number of correct answers
 */
+const questionOne = prompt('What are JavaScript Data types? ');
+const questionTwo = prompt('Which company developed netscape?');
+const questionThree = prompt('What is this === operator called?');
+const questionFour = prompt('What are all the types of Pop up boxes available in JavaScript?');
+const questionFive = prompt('Java and Javascript are the same. True or False');
 
-prompt('who is the goat of soccer?')
-if (Cristiano Ronaldo) {
-console.log('siiiiiuuuuu!');
-}
+
 
 
 /*
