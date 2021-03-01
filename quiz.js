@@ -8,7 +8,7 @@ const questionOne = prompt('A symbol is a javacript data type: True or False? ')
     if (questionOne.toUpperCase() === 'TRUE') {
        correct += 1;
     } 
-const questionTwo = prompt('Which company developed netscape?');
+const questionTwo = prompt('Which company developed javascript?');
     if (questionTwo.toUpperCase() === 'NETSCAPE') {
         correct += 1;
     } 
