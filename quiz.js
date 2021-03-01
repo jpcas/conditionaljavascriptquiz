@@ -1,10 +1,6 @@
-/* 
-  1. Store correct answers
-   - When quiz begins, no answers are correct
-*/
+
 let correct = 0;
 
-// 2. Store the rank of a player
 
 let rank;
 
@@ -36,18 +32,17 @@ const questionFive = prompt('Java and Javascript are the same. True or False');
 
 
 
-/*
-  5. Rank player based on number of correct answers
-   - 5 correct = Gold
-   - 3-4 correct = Silver
-   - 1-2 correct = Bronze
-   - 0 correct = No crown
-*/
 
-let fiveScore = gold 
-let threeFour = Bronze
-let oneTwo = Bronze
-let zero = noCrown 
+if ( correct === 5) {
+    rank="gold"
+} else if ( correct >= 3 ) {
+    rank="silver"
+} else if ( correct >= 2 ) {
+    rank="bronze"
+} else {
+    rank = "No crown for you";
+}
 
 
-// 6. Output results to the <main> element
+main.innerHTML = <h2>You got ${correct} out of 5 questions correct. </h2>
+<p> Medal earned: <strong>${rank}</strong></p>
