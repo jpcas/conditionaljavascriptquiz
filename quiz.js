@@ -6,35 +6,32 @@ let correct = 0;
 
 // 2. Store the rank of a player
 
-let x = 0 
-// 3. Select the <main> HTML element
+let rank;
 
 
-/*
-  4. Ask at least 5 questions
-   - Store each answer in a variable
-   - Keep track of the number of correct answers
-*/
+const main = document.querySelector(main);
+
+
 const questionOne = prompt('A symbol is a javacript data type: True or False? ');
-    if (questionOne === 'true') {
-        alert('You are correct!')
-    } else alert('Wrong answer!');
+    if (questionOne.toUpperCase() === 'TRUE') {
+       correct += 1;
+    } 
 const questionTwo = prompt('Which company developed netscape?');
-    if (questionTwo === 'netscape') {
-        alert('You are correct!')
-    } else alert('Wrong Answer!');
+    if (questionTwo.toUpperCase() === 'NETSCAPE') {
+        correct += 1;
+    } 
 const questionThree = prompt('What is this === operator called?');
-    if (questionThree === 'strict operator') {
-        alert('You are right!');
-    } else alert('Wront Answer!')
+    if (questionThree.toUpperCase() === 'STRICT OPERATOR') {
+        correct += 1;
+    } 
 const questionFour = prompt('Prompts and alerts pop up boxes? True or False');
-if (questionFour === 'true') {
-    alert('You are right!');
-} else alert('WRONG!')
+if (questionFour.toUpperCase() === 'TRUE') {
+    correct += 1;
+} 
 const questionFive = prompt('Java and Javascript are the same. True or False');
-    if (questionFive === 'true') {
-        alert('You are right!')
-    } else alert('Wrong again!');
+    if (questionFive.toUpperCase() === 'TRUE') {
+        correct += 1;
+    }
 
 
 
