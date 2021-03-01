@@ -1,11 +1,7 @@
 
 let correct = 0;
-
-
 let rank;
-
-
-const main = document.querySelector(main);
+const main = document.querySelector('main');
 
 
 const questionOne = prompt('A symbol is a javacript data type: True or False? ');
@@ -44,5 +40,5 @@ if ( correct === 5) {
 }
 
 
-main.innerHTML = <h2>You got ${correct} out of 5 questions correct. </h2>
-<p> Medal earned: <strong>${rank}</strong></p>
+main.innerHTML = `<h2>You got ${correct} out of 5 questions correct. </h2>
+<p> Medal earned: <strong>${rank}</strong></p>;`
