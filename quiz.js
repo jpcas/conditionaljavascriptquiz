@@ -2,11 +2,7 @@
   1. Store correct answers
    - When quiz begins, no answers are correct
 */
-const answer1 = 'string, number, undefined, null, boolean and symbol';
-const answer2 = 'netscape';
-const answer3 = 'strict operator';
-const answer4 = 'True';
-const answer5 = 'False';
+let correct = 0;
 
 // 2. Store the rank of a player
 
